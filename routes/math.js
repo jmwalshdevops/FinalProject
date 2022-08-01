@@ -73,8 +73,4 @@ router.get("/subtract", function (req, res, next) {
   });
 });
 
-app.get("/about", (req, res) => {
-  res.render("about");
-});
-
 module.exports = router;
